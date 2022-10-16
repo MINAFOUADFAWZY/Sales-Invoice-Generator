@@ -2,10 +2,10 @@ import controller.DeleteInvoiceLine;
 import controller.DeleteInvoiceHeader;
 import controller.searchInvoiceLine;
 import controller.searchInvoiceHeader;
-import model.addInvoiceLine;
-import model.updateProduct;
-import view.Sale;
-import view.addProduct;
+import model.CreateInvoiceLine;
+import model.CreateInvoiceHeader;
+import view.InvoiceHeader;
+import view.InvoiceLine;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
