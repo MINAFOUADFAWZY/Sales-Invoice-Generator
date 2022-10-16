@@ -1,8 +1,8 @@
-import controller.deleteCashier;
-import controller.deleteProduct;
-import controller.searchCashier;
-import controller.searchProduct;
-import model.addCashier;
+import controller.DeleteInvoiceLine;
+import controller.DeleteInvoiceHeader;
+import controller.searchInvoiceLine;
+import controller.searchInvoiceHeader;
+import model.addInvoiceLine;
 import model.updateProduct;
 import view.Sale;
 import view.addProduct;
