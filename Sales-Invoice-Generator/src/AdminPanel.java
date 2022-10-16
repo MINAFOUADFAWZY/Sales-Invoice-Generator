@@ -114,12 +114,12 @@ public class AdminPanel extends JFrame implements ActionListener {
 		
 		panels.add(new addProduct());
 		panels.add(new updateProduct());
-		panels.add(new deleteProduct());
-		panels.add(new addCashier());
-		panels.add(new deleteCashier());
+		panels.add(new DeleteInvoiceHeader());
+		panels.add(new CreateInvoiceLine());
+		panels.add(new DeleteInvoiceLine());
 		panels.add(new showStock());
-		panels.add(new searchProduct());
-		panels.add(new searchCashier());
+		panels.add(new searchInvoiceHeader());
+		panels.add(new searchInvoiceLine());
 		panels.add(new Sale());
 		getContentPane().add(panels.get(0));
 		
